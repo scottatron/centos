@@ -1,0 +1,14 @@
+{
+  "_comment": "Build with `packer build -var-file=rhel72.json rhel.json`",
+  "vm_name": "rhel72",
+  "cpus": "1",
+  "disk_size": "65536",
+  "iso_checksum": "03f3a0291634335f6995534d829bd21ffaa0d000004dfeb1b2fb81052d64a4d5",
+  "iso_checksum_type": "sha256",
+  "iso_path": "./",
+  "iso_name": "rhel-server-7.2-x86_64-dvd.iso",
+  "iso_url": "",
+  "kickstart": "ks7.cfg",
+  "memory": "512",
+  "parallels_guest_os_type": "rhel7"
+}
